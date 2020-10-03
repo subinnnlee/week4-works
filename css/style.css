@@ -1,0 +1,57 @@
+@-webkit-keyframes moving {
+	0% { transform: rotate(0deg); } 100% {transform: rotate(100deg);} }
+
+.box1 {
+	width: 150px; height: 150px; background-color: gray; border-radius: 30px;
+	animation-name: moving;
+    transition-property; transform, background-color, ;
+    transition-duration: 1s;
+    animation-iteration-count: infinite;}
+
+.box1:hover {
+	transform: rotate(360deg);
+	background-color: gray;}
+
+@-webkit-keyframes movingg {
+	0% { left: 300px; } 
+	50% { left: 800px;}
+	100% { left: 300px; } }
+
+.box2 {
+	width: 300px; height: 70px; background-color: 93c68d;
+	animation-name: movingg;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+@-webkit-keyframes movingg-1 {
+	0% { left: 300px; } 
+	50% { left: 400px;}
+	100% { left: 300px; } }
+
+.box2-1 {
+	width: 60px; height: 150px; background-color: 678cd6;
+	animation-name: movingg-1;
+	animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+@-webkit-keyframes movinggg {
+	0% { top: 0px;} 
+	60% { top: 200px;}
+	100% { top: 0px;} }
+
+.box3 {
+	width: 15px; height: 700px; background-color: bb8dc4;
+	animation-name: movinggg;
+	animation-duration: 1.5s;
+    animation-iteration-count: infinite;}
+
+@-webkit-keyframes mov {
+	0% { top: 15px;} 
+	37% { top: 50px;}
+	100% { top: 15px;} }
+
+.circle {
+	animation-name: mov;
+	animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition-property; transform}
